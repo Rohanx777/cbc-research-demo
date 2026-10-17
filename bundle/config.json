@@ -1,0 +1,25 @@
+{
+  "version": "india-cbc-logistic-c87ec8485159",
+  "model_sha256": "c87ec848515906247b77e9764953a9969c4c9ae8da69cd3b877e7afaa2c3c23e",
+  "features": [
+    "LBXWBCSI",
+    "LBXLYPCT",
+    "LBXNEPCT",
+    "LBXMOPCT",
+    "LBXRBCSI",
+    "NLR",
+    "LMR"
+  ],
+  "threshold": 0.626816175626443,
+  "held_out_metrics": {
+    "auc": 0.7131549909461294,
+    "accuracy": 0.6316489361702128,
+    "sensitivity": 0.35904255319148937,
+    "specificity": 0.9042553191489362,
+    "auc_ci_low": 0.6767181153060473,
+    "auc_ci_high": 0.7491045102307755
+  },
+  "round_differential_percentages": true,
+  "status": "exploratory_internal_validation_reconstructed_labels",
+  "training": "Final pipeline refitted on Indian development cohort; evaluation metrics come from separate nested-CV held-out predictions"
+}
